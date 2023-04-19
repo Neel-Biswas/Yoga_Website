@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@font-face {
+    font-family: 'SFURhythmRegular';
+    src: url('../fonts/SFURhythmRegular.eot');
+    src: url('../fonts/SFURhythmRegular.eot') format('embedded-opentype'),
+         url('../fonts/SFURhythmRegular.woff2') format('woff2'),
+         url('../fonts/SFURhythmRegular.woff') format('woff'),
+         url('../fonts/SFURhythmRegular.ttf') format('truetype'),
+         url('../fonts/SFURhythmRegular.svg#SFURhythmRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'SFUGillSansLight';
+    src: url('../fonts/SFUGillSansLight.eot');
+    src: url('../fonts/SFUGillSansLight.eot') format('embedded-opentype'),
+         url('../fonts/SFUGillSansLight.woff2') format('woff2'),
+         url('../fonts/SFUGillSansLight.woff') format('woff'),
+         url('../fonts/SFUGillSansLight.ttf') format('truetype'),
+         url('../fonts/SFUGillSansLight.svg#SFUGillSansLight') format('svg');
+}
+
+@font-face {
+    font-family: 'FontsFreeNetGillSansBold';
+    src: url('../fonts/FontsFreeNetGillSansBold.eot');
+    src: url('../fonts/FontsFreeNetGillSansBold.eot') format('embedded-opentype'),
+         url('../fonts/FontsFreeNetGillSansBold.woff2') format('woff2'),
+         url('../fonts/FontsFreeNetGillSansBold.woff') format('woff'),
+         url('../fonts/FontsFreeNetGillSansBold.ttf') format('truetype'),
+         url('../fonts/FontsFreeNetGillSansBold.svg#FontsFreeNetGillSansBold') format('svg');
+}
+
+.container{
+			max-width: 1180px;
+    		margin: 0 auto;
+    	   }
+
+.clearfix{clear: both;}
+
+.no_margin{margin-right: 0px;}
+
+.inside_upper{
+	background: #f4f9f4; width: 100%; height: 40px; }
+
+.logo{float: left;}
+.navigation{background: #6c9894; width: 100%; float: left;}
+.navigation{ margin: 0px; display: inline-block; /*padding-top: 15px; padding-left: 424px;  padding-bottom: 15px;*/}
+.navigation ul{padding: 0px; margin: 0px; list-style: none; float: right;}
+.navigation ul li{display: inline-block; vertical-align: top; padding-right: 111px;}
+.navigation ul li a{color: #444444; font-family: 'SFURhythmRegular'; font-size: 14px; line-height: auto; text-decoration: none; 
+display: block; padding: 13px 13px;}
+.navigation ul li a:hover{ color: #51605e; background: #c7d9d5;}
+
+
+.banner{background: url(../images/banner.png); background-repeat: no-repeat; background-position: center top; background-size: cover; 
+padding-top: 293px; padding-bottom: 490px; width: 100%;}
+.inside_banner h1{color: #6c9894; font-family: 'SFURhythmRegular'; font-size: 93px; line-height: auto;}
+.inside_banner p{color: #6c9894; font-family: 'SFUGillSansLight'; font-size: 24px; line-height: auto; padding-top: 45px; padding-bottom: 45px;}
+.inside_banner a{color: #fff; font-family: 'FontsFreeNetGillSansBold'; font-size: 14px; line-height: auto; background: #6c9894; 
+padding: 9px 43px; text-decoration: none; border-radius: 10px; display: inline-block;}
+.inside_banner a:hover{color: #000;}
+.inside_banner{text-align: center; padding-left: 292px;}
+
+
+.start_class{background: #6c9894; width: 100%; padding-top: 128px; padding-bottom: 97px;}
+.inside_class h2{color: #fff; font-family: 'SFURhythmRegular'; font-size: 63px; line-height: auto; text-align: center;}
+.inside_class p{color: #fff; font-family: 'SFUGillSansLight'; font-size: 17px; line-height: auto; text-align: center; padding-top: 60px;}
+
+.circle_holder{padding-top: 123px; float: left; width: 33.33%;}
+.circle_holder h2{color: #fff; font-family: 'SFURhythmRegular'; font-size: 28px; line-height: auto; padding-top: 37px; text-align: center;}
+.circle_holder p{color: #fff; font-family: 'SFUGillSansLight'; font-size: 15px; line-height: auto; padding-top: 37px; text-align: center; }
+
+
+.our_stats{background: url(../images/stats_banner.png); background-repeat: no-repeat; background-position: center; background-size: cover; 
+width: 100%; padding-top: 99px; padding-bottom: 277px;}
+.inside_stats h2{color: #6c9894; font-family: 'SFURhythmRegular'; font-size: 48px; line-height: auto; text-align: center;}
+.inside_stats p{color: #6c9894; font-family: 'SFUGillSansLight'; font-size: 17px; line-height: auto; padding-top: 59px; text-align: center; 
+padding-bottom: 169px;}
+.stat_circle{width: 321px; height: 321px; border-radius: 50%; border: 5px solid #6c9894; float: left; margin-right:62px;}
+.stat_circle h2{color: #6c9894; font-family: 'SFURhythmRegular'; font-size: 36px; line-height: auto; text-align: center; padding-top:96px;
+padding-bottom: 41px;}
+.stat_circle p{color: #6c9894; font-family: 'SFUGillSansLight'; font-size: 26px; line-height: auto; text-align: center;   padding-bottom: 82px;}
+
+
+.instructor_details{background: #6c9894; padding-top: 260px; padding-bottom: 233px; text-align: center;float: left; width: 755px;}
+.instructor_details h2{color: #fff; font-family: 'SFURhythmRegular'; font-size: 48px; line-height: auto; padding-bottom: 50px;}
+.instructor_details p{color: #fff; font-family: 'SFUGillSansLight'; font-size: 28px; line-height: auto; padding-bottom: 78px;}
+.instructor_details a{color: #6c9894; font-family: 'FontsFreeNetGillSansBold'; font-size: 18px; line-height: auto; background: #fff; 
+padding: 25px 82px; text-decoration: none; display: inline-block;}
+.instructor_details a:hover{color: #000;}
+.inside_instructor{float: left; }
+.instructor_pic{/*display: inline-block; vertical-align: top;*/ float: right;}
+.instructor_pic img{width:755px; height: 868px;}
+
+
+.new_experience{padding-top: 110px; padding-bottom: 73px;}
+.experience_details{float: right; padding-top: 235px;}
+.experience_details h2{color: #6c9894; font-family: 'SFURhythmRegular'; font-size: 48px; line-height: auto; padding-bottom: 57px;}
+.experience_details p{color: #6c9894; font-family: 'SFUGillSansLight'; font-size: 17px; line-height: auto; padding-bottom: 62px;}
+.experience_details a{color: #fff; font-family: 'FontsFreeNetGillSansBold'; font-size: 16px; line-height: auto; padding: 23px 98px; 
+text-decoration: none; background: #6c9894; border-radius: 5px;}
+.experience_details a:hover{color: #000;}
+.experience_pic{display: inline-block; vertical-align: top;}
+
+
+
+.pricing_section{background: #6c9894; width: 100%; padding-top: 125px; padding-bottom: 100px;}
+.inside_pricing h2{color: #fff; font-family: 'SFURhythmRegular'; font-size: 48px; line-height: auto; padding-bottom: 64px; text-align: center;}
+.inside_pricing p{color: #fff; font-family: 'SFUGillSansLight'; font-size: 18px; line-height: auto; padding-bottom: 87px; text-align: center;}
+.pricing_box{background: #fff; width: 371px; height: 495px;	boreder-radius:15px; text-align: center; float: left; margin-right: 22px;}
+.pricing_box h2{color: #6c9894; font-family: 'SFURhythmRegular'; font-size: 38px; line-height: auto; text-align: center; padding-top: 42px;}
+.pricing_box h3{color: #6c9894; font-family: 'FontsFreeNetGillSansBold'; font-size: 28px; line-height: auto; text-align: center; padding-top: 18px;}
+.pricing_box img{padding-top: 30px; text-align: center;}
+.pricing_box p{color: #6c9894; font-family: 'SFUGillSansLight'; font-size: 18px; line-height: auto; text-align: center; padding-top: 36px; 
+padding-bottom: 36px;}
+.pricing_box a{color: #fff; background: #6c9894; font-family: 'SFURhythmRegular'; font-size: 18px; line-height: auto; text-align: center; 
+padding: 25px 57px; text-decoration: none; display: inline-block; vertical-align: top; margin-bottom: 35px;}
+.pricing_box a:hover{color: #000;}
+
+
+.tariner_section{background: url(../images/trainer_banner.png); background-repeat: no-repeat; background-position: center; background-size: cover; 
+width: 100%; padding-top: 116px; padding-bottom: 192px;}
+.inside_trainer{text-align: center;}
+.inside_trainer img{margin-bottom: 65px; border: 5px solid #6c9894;  border-radius: 50%;}
+.inside_trainer p{color: #6c9894; font-family: 'SFUGillSansLight'; font-size: 28px; padding-bottom: 62px;}
+.inside_trainer h2{color: #6c9894; font-family: 'SFURhythmRegular'; font-size: 38px;}
+
+
+.dontmiss_section{background: #6c9894; width: 100%; padding-top: 137px; padding-bottom: 217px;}
+.inside_dontmiss{text-align: center;}
+.inside_dontmiss h2{color: #f4f9f4; font-family: 'SFURhythmRegular'; font-size: 38px; line-height: auto; text-align: center;}
+.inside_dontmiss p{color: #f4f9f4; font-family: 'SFUGillSansLight'; font-size: 18px; line-height: auto; text-align: center; padding-top: 61px; 
+padding-bottom: 57px;}
+.inside_dontmiss a{color: #000; font-family: Myriad Pro Regular; font-size: 16px; line-height: auto; background: #fff; padding: 22px 432px 22px 43px; 
+text-decoration: none; border-radius: 35px;}
+.subscribe{color: #6c9894; font-family: 'FontsFreeNetGillSansBold'; font-size: 16px; line-height: auto; background: #f4f9f4; padding: 22px 60px; text-decoration: 
+none; border-radius: 35px; border: none;}
+.subscribe:hover{color: #000;}
+
+
+
+.footer{background: #f4f9f4; width: 100%; padding-top: 167px; padding-bottom: 130px;}
+.inside_footer{display: inline-block; vertical-align: top; }
+.footer_title{display: inline-block; vertical-align: top;  padding-right: 66px;}
+.footer_title h2{color: #6c9894; font-family: 'FontsFreeNetGillSansBold'; font-size: 33px; line-height: auto; padding-bottom: 41px;}
+.footer_title p{color: #6c9894; font-family: 'SFUGillSansLight'; font-size: 20px; line-height: auto;}
+
+.about{display: inline-block; vertical-align: top; padding-right: 66px;}
+.about h2{color: #6c9894; font-family: 'FontsFreeNetGillSansBold'; font-size: 33px; line-height: auto; padding-bottom: 41px;}
+.about ul{padding: 0px; margin: 0px; list-style: none;}
+.about ul li{padding-bottom: 27px;}
+.about ul li a{color: #6c9894; font-family: 'SFUGillSansLight'; font-size: 25px; line-height: auto; text-decoration: none;}
+.about ul li a:hover{color: #000;}
+
+.services{display: inline-block; vertical-align: top; padding-right: 66px;}
+.services h2{color: #6c9894; font-family: 'FontsFreeNetGillSansBold'; font-size: 33px; line-height: auto; padding-bottom: 41px;}
+.services ul{padding: 0px; margin: 0px; list-style: none;}
+.services ul li{padding-bottom: 27px;}
+.services ul li a{color: #6c9894; font-family: 'SFUGillSansLight'; font-size: 25px; line-height: auto; text-decoration: none;}
+.services ul li a:hover{color: #000;}
+
+
+.follow{display: inline-block; vertical-align: top; }
+.follow h2{color: #6c9894; font-family: 'FontsFreeNetGillSansBold'; font-size: 33px; line-height: auto; padding-bottom: 41px; }
+.follow ul{padding: 0px; margin: 0px; list-style: none;}
+.follow ul li{padding-bottom: 27px; padding-right: 28px;} 
+.follow ul li a{color: #6c9894; font-family: 'SFUGillSansLight'; font-size: 25px; line-height: auto; text-decoration: none; padding-left: 28px;}
+.follow ul li a:hover{color: #000;}

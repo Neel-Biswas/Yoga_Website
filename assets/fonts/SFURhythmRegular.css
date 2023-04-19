@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SFURhythmRegular';
+    src: url('fonts/SFURhythmRegular.eot');
+    src: url('fonts/SFURhythmRegular.eot') format('embedded-opentype'),
+         url('fonts/SFURhythmRegular.woff2') format('woff2'),
+         url('fonts/SFURhythmRegular.woff') format('woff'),
+         url('fonts/SFURhythmRegular.ttf') format('truetype'),
+         url('fonts/SFURhythmRegular.svg#SFURhythmRegular') format('svg');
+}

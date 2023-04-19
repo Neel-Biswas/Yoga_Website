@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SFUGillSansLight';
+    src: url('fonts/SFUGillSansLight.eot');
+    src: url('fonts/SFUGillSansLight.eot') format('embedded-opentype'),
+         url('fonts/SFUGillSansLight.woff2') format('woff2'),
+         url('fonts/SFUGillSansLight.woff') format('woff'),
+         url('fonts/SFUGillSansLight.ttf') format('truetype'),
+         url('fonts/SFUGillSansLight.svg#SFUGillSansLight') format('svg');
+}

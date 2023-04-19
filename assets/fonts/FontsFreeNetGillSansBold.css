@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FontsFreeNetGillSansBold';
+    src: url('fonts/FontsFreeNetGillSansBold.eot');
+    src: url('fonts/FontsFreeNetGillSansBold.eot') format('embedded-opentype'),
+         url('fonts/FontsFreeNetGillSansBold.woff2') format('woff2'),
+         url('fonts/FontsFreeNetGillSansBold.woff') format('woff'),
+         url('fonts/FontsFreeNetGillSansBold.ttf') format('truetype'),
+         url('fonts/FontsFreeNetGillSansBold.svg#FontsFreeNetGillSansBold') format('svg');
+}
